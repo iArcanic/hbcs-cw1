@@ -1,26 +1,24 @@
-<!-- omit in toc -->
-# Security and Usability Trade-offs Report
+---
+title: "Security and Usability Trade-offs Report"
+author: Preetham Ananthkumar
+date: November 10, 2023
+bibliography: references.bib
+output:
+  pdf_document:
+    toc: true
+    number_sections: true
+csl: ieee.csl
+---
 
 > __Preetham Ananthkumar__<br>
 > __2242090__
-___
 
-Contents
+# Introduction
 
-- [Introduction](#introduction)
-- [Identifying usage scenarios](#identifying-usage-scenarios)
-- [Identifying threat scenarios](#identifying-threat-scenarios)
-- [Reccomendations](#reccomendations)
-- [Appendices](#appendices)
+# Identifying usage scenarios
 
-___
+# Identifying threat scenarios
 
-## Introduction
+# Recommendations
 
-## Identifying usage scenarios
-
-## Identifying threat scenarios
-
-## Reccomendations
-
-## Appendices
+# Appendices
