@@ -38,13 +38,17 @@ jobs:
     - name: Check BibTeX syntax
       run: bibtexlint --glob '**/*.bib' || true
 
+    - name: Set timestamp
+      id: timestamp
+      run: echo "::set-output name=timestamp::$(date +'%Y%m%d%H%M%S')"
+
     - name: Compile Markdown to PDF
       run: |
         timestamp=$(date +"%Y%m%d%H%M%S")
-        pandoc security-and-usability-trade-offs-report.md --filter pandoc-citeproc -o "security-and-usability-trade-offs-report-${timestamp}.pdf"
+        pandoc security-and-usability-trade-offs-report.md --filter pandoc-citeproc -o "security-and-usability-trade-offs-report-${{ steps.timestamp.outputs.timestamp }}.pdf"
 
     - name: Upload PDF artifact
       uses: actions/upload-artifact@v2
       with:
         name: pdf-artifact
-        path: "security-and-usability-trade-offs-report-${{ timestamp }}.pdf"
+        path: "security-and-usability-trade-offs-report-${{ steps.timestamp.outputs.timestamp }}.pdf"
