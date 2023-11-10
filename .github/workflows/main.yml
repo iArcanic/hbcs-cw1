@@ -1,0 +1,43 @@
+name: Build and Check
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install Pandoc
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+
+    - name: Install BibTeX
+      run: |
+        sudo apt-get install -y bibtex2html
+
+    - name: Set up TeX
+      uses: einaregilsson/setup-pandoc@v2
+
+    - name: Check Markdown syntax
+      run: npx markdownlint '**/*.md'
+
+    - name: Check BibTeX syntax
+      run: bibtexlint --glob '**/*.bib'
+
+    - name: Compile Markdown to PDF
+      run: |
+        timestamp=$(date +"%Y%m%d%H%M%S")
+        pandoc yourfile.md --citeproc -o "security-and-usability-trade-offs-report-${timestamp}.pdf"
+
+    - name: Upload PDF artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: pdf-artifact
+        path: "security-and-usability-trade-offs-report-${timestamp}.pdf"
