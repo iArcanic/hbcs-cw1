@@ -39,7 +39,7 @@ jobs:
     - name: Compile Markdown to PDF
       run: |
         timestamp=$(date +"%Y%m%d%H%M%S")
-        pandoc yourfile.md --citeproc -o "security-and-usability-trade-offs-report-${timestamp}.pdf"
+        pandoc security-and-usability-trade-offs-report.md --citeproc -o "security-and-usability-trade-offs-report-${timestamp}.pdf"
 
     - name: Upload PDF artifact
       uses: actions/upload-artifact@v2
