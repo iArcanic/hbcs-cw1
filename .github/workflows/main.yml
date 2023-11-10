@@ -25,6 +25,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y pandoc
+        sudo apt-get install -y pandoc-citeproc
 
     - name: Install BibTeX
       run: |
@@ -39,7 +40,7 @@ jobs:
     - name: Compile Markdown to PDF
       run: |
         timestamp=$(date +"%Y%m%d%H%M%S")
-        pandoc security-and-usability-trade-offs-report.md --citeproc -o "security-and-usability-trade-offs-report-${timestamp}.pdf"
+        pandoc security-and-usability-trade-offs-report.md --filter pandoc-citeproc -o "security-and-usability-trade-offs-report-${timestamp}.pdf"
 
     - name: Upload PDF artifact
       uses: actions/upload-artifact@v2
