@@ -2,6 +2,7 @@
 title: "Security and Usability Trade-offs Report"
 author: Preetham Ananthkumar 2242090
 bibliography: references.bib
+reference-section-title: "5 References"
 output:
   pdf_document:
     toc: true
@@ -17,7 +18,7 @@ To fully grasp an entire understanding of ChatGPT's security and stability, this
 
 The examination of ChatGPT's controversial AI interface will give rise to insight on how it ultimately impact end-user behavior. From this, we can potentially glean strategies to improve this system with the goal of minimizing risk from threats. Overall, the main objective is to evaluate this particular system, ChatGPT, through well defined scenarios in order to provide a more holistic view on the benefits it offers, as well as the understood risk associated.
 
-> Note, that the platform that has been decided to be analysed for the system, ChatGPT, is iOS, since the web variant has limited features. Although it is the same product and engine, the mobile counterpart is slightly more popular (see Appendix 1) than the web version.
+Note, that the platform that has been decided to be analysed for the system, ChatGPT, is iOS, since the web variant has limited features. Although it is the same product and engine, the mobile counterpart is slightly more popular (see Appendix 1) than the web version.
 
 # 2 Usage scenarios
 
@@ -31,15 +32,17 @@ Usage scenario
 A more cohesive, in-depth take on this considers a variety of other elements (see Appendix 3) that comprise a usage scenario, explored in two studies [@dong2018; @ortiz2010], but can be summarised in combination as:
 $$Scenario=(Time,\space Context,\space User,\space Product,\space Behavior\space (or\space Interaction),\space Artefact)$$
 
-In which $Time$ defines the duration for which the user interacts with the product [@dong2018]. $Context$ refers to the environmental factors into distinct categories of physical, social, situational, cultural and temporal [@ortiz2010]. $User$ is as it says, however with additional attention to their values, personal traits and ambitions [@ortiz2010]. $Product$ is defined as the actual object that is being considered within the scenario [@dong2018]. $Behavior$ ($Interaction$ or $Artefact$) concerns itself with the actual ongoings of the scenario interaction itself, and this could include the type of interaction (physical or non-physical) [@ortiz2018]. Finally, $Artefact$ is the end output of the usage scenario, which can take the form of either social, technical or aesthetic functions [@ortiz2010].
+In which $Time$ defines the duration for which the user interacts with the product [@dong2018]. $Context$ refers to the environmental factors into distinct categories of physical, social, situational, cultural and temporal [@ortiz2010]. $User$ is as it says, however with additional attention to their values, personal traits and ambitions [@ortiz2010]. $Product$ is defined as the actual object that is being considered within the scenario [@dong2018]. $Behavior$ (or $Interaction$) concerns itself with the actual ongoings of the scenario interaction itself, and this could include the type of interaction (physical or non-physical) [@ortiz2010]. Finally, $Artefact$ is the end output of the usage scenario, which can take the form of either social, technical or aesthetic functions [@ortiz2010].
 
 So, with that in mind, here are three usage scenarios identified for the system under evaluation, ChatGPT.
 
 ## 2.2 Usage scenarios for ChatGPT
 
+All these scenarios will be under the assumption that the user has an authenticated account and has successfully logged in with said account. A consistent, stable internet communication throughout is obviously a understood prerequisite.
+
 ### 2.3 Asking specific questions (via both text and speech recognition) to receive specific answers
 
-Under the assumption that the user has an authenticated account and has successfully logged in, the
+The main functionality of ChatGPT is for the user to be able to input a specific query and thus, receive the relevant output. The nature of the query on iOS can range from text input or speech recognition. Once a valid input is parsed, i.e. one which does not violate OpenAI's terms and conditions policy, the AI engine utlises the supremely vast dataset its been provided in combination of its pre-training phase to identify patterns and structures in the prompt it has been given [@semrush2022]. After communication and subsequent back-end server processing, a response is sent back to the user's device. It then generates a coherent response, rendering that on the screen in an easy-to-understand visual way. Specifically, for the ChatGPT iOS application, haptic feedback is given to indicate when a response has completely been delivered. The screen rendering of the AI-generated response is done slowly – to be suitable for typical human reading speeds.
 
 ### 2.4 Creating multiple chats and searching for particular chats
 
