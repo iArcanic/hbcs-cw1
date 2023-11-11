@@ -12,13 +12,13 @@ csl: elsevier-harvard.csl
 
 # 1 Introduction
 
-This report analyses the security and usability trade-offs of ChatGPT, an AI assistant created by the AI and research company, OpenAI on November 30th of 2022. This system will be evaluated using the security-usability threat modeling approach as proposed by the Kainda [@kainda2010], as seen in Appendix 2. This is a suitable framework, as it helps to identify the frictions between both the security and usability for legitimate users by considering appropriate usage scenarios, as opposed to the potential threat scenarios that could also arise due to probable user mistakes.
+This report analyses the security and usability trade-offs of ChatGPT, an AI assistant created by the AI and research company, OpenAI on November 30th of 2022. This system will be evaluated using the security-usability threat modeling approach as proposed by the Kainda [@kainda2010], as seen in Appendix 1. This is a suitable framework, as it helps to identify the frictions between both the security and usability for legitimate users by considering appropriate usage scenarios, as opposed to the potential threat scenarios that could also arise due to probable user mistakes.
 
 To fully grasp an entire understanding of ChatGPT's security and stability, this report will present three usage scenarios, along with three corresponding threat scenarios based on likely user mistakes, demonstrating particular deficiencies about the system. The scenarios will be thoroughly analysed to determine how easy the system is from a usability perspective. Finally, to top it all off, some recommendations will be given on which the system could improve upon.
 
 The examination of ChatGPT's controversial AI interface will give rise to insight on how it ultimately impact end-user behavior. From this, we can potentially glean strategies to improve this system with the goal of minimizing risk from threats. Overall, the main objective is to evaluate this particular system, ChatGPT, through well defined scenarios in order to provide a more holistic view on the benefits it offers, as well as the understood risk associated.
 
-Note, that the platform that has been decided to be analysed for the system, ChatGPT, is iOS, since the web variant has limited features. Although it is the same product and engine, the mobile counterpart is slightly more popular (see Appendix 1) than the web version.
+Note, that the platform that has been decided to be analysed for the system, ChatGPT, is iOS, since the web variant has limited features. Although it is the same product and engine, the mobile counterpart is slightly more popular (see Appendix 2) than the web version.
 
 # 2 Usage scenarios
 
@@ -42,9 +42,11 @@ All these scenarios will be under the assumption that the user has an authentica
 
 ### 2.3 Asking specific questions (via both text and speech recognition) to receive specific answers
 
-The main functionality of ChatGPT is for the user to be able to input a specific query and thus, receive the relevant output. The nature of the query on iOS can range from text input or speech recognition. Once a valid input is parsed, i.e. one which does not violate OpenAI's terms and conditions policy, the AI engine utlises the supremely vast dataset its been provided in combination of its pre-training phase to identify patterns and structures in the prompt it has been given [@semrush2022]. After communication and subsequent back-end server processing, a response is sent back to the user's device. It then generates a coherent response, rendering that on the screen in an easy-to-understand visual way. Specifically, for the ChatGPT iOS application, haptic feedback is given to indicate when a response has completely been delivered. The screen rendering of the AI-generated response is done slowly – to be suitable for typical human reading speeds.
+The main functionality of ChatGPT is for the user to be able to input a specific query and thus, receive the relevant output. The nature of the query on iOS can range from text input or speech recognition. The iOS engine itself may do its own local tasks, such as auto-correcting, spell-checking, text suggestions (see Appendix 4). Once a valid input is parsed, i.e. one which does not violate OpenAI's terms and conditions policy, the AI engine utlises the supremely vast dataset its been provided in combination of its pre-training phase to identify patterns and structures in the prompt it has been given [@semrush2022]. After communication and subsequent back-end server processing, a response is sent back to the user's device. It then generates a coherent response, rendering that on the screen in an easy-to-understand visual way. Specifically, for the ChatGPT iOS application, haptic feedback is given to indicate when a response has completely been delivered (see Appendix 4). The screen rendering of the AI-generated response is done slowly – to be suitable for typical human reading speeds (see Appendix 4).
 
-### 2.4 Creating multiple chats and searching for particular chats
+### 2.4 Creating multiple chats, searching for particular chats and searching for words/phrases/characters in said chats
+
+ChatGPT's technology is such that it is able to use the previous prompts and AI-generated responses within a singular chat and extract a context from it. A user may decide that they want a completely new context or just a blank screen for clarity and organisational purposes. When the user swipes left, they are able to see an accumulation of pre-existing chats (if any) with AI-generated titles based on the chat's context. If the user desired to search for a specific pattern of words, phrases or characters from from their entire chat history, again, the iOS engine does its simple local tasks via the keyboard and then the app returns all relevant results it can find within a specific time period. If older results are required, the user is prompted to do so. When a search result is clicked, the application interface then directs the user to very beginning of that specific chat.
 
 ### 2.5 Automating simple digital tasks
 
@@ -63,18 +65,32 @@ Threat scenario
 
 ## 6.1 Appendix 1
 
-### ChatGPT's popularity amongst other apps on Apple's AppStore
-
-![](images/chat-gpt-app-store-chart-popularity.png)
-
-## 6.2 Appendix 2
-
-### Kainda’s HCISec security threat model (Security-usability threat model)
+### 6.1.1 Kainda’s HCISec security threat model (Security-usability threat model)
 
 ![](images/kainda-2010-security-usability-threat-model.png)
 
+## 6.2 Appendix 2
+
+### 6.2.1 ChatGPT's popularity amongst other apps on Apple's AppStore
+
+![](images/chat-gpt-app-store-chart-popularity.png)
+
 ## 6.3 Appendix 3
 
-### Dong's UX usage scenario elements
+### 6.3.1 Dong's UX usage scenario elements
 
 ![](images/dong-2018-ux-usage-scenario-elements.png)
+
+## 6.4 Appendix 4
+
+### 6.4.1 iOS engine performing simple local tasks via keyboard
+
+![](images/chat-gpt-ios-engine.jpeg)
+
+### 6.4.2 Slow rendering of AI-generated response for human reading speeds
+
+![](images/chat-gpt-slow-rendering-speeds.jpeg)
+
+### 6.4.3 Full final AI-generated response rendered on screen
+
+![](images/chat-gpt-full-ai-response.jpeg)
