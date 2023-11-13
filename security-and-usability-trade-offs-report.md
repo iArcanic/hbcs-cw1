@@ -19,7 +19,7 @@ The examination of ChatGPT's controversial AI interface will give rise to insigh
 
 Note, that the platform that has been decided to be analysed for the system, ChatGPT, is iOS, since the web variant has limited features. Although it is the same product and engine, the mobile counterpart is slightly more popular (see Appendix 2) than the web version.
 
-# 2 Scenarios
+# 2 Analysing scenarios
 
 ## 2.1 Defining a scenario
 
@@ -73,6 +73,8 @@ Again, as in 2.2.2, we are taking the base assumption that the user is with an a
 
 #### 2.3.2.1 User provides sensitive personal information without realising privacy risks
 
+The inherent conversational nature of ChatGPT may lead users to inadvertently disclose personal information which they may not be comfortable expressing without understanding the obvious privacy implications that come alone with that. Such personal information could be in various forms, with examples including mental health information, personal details such as location, ethnic origin, sex orientation or religious beliefs. Without much transparency beforehand on how user data is handled, the user is ill informed of the data processing actions occurring and so, the mental model for the user is to assume that OpenAI handles their data in an anonymous and private way – satiating themselves. If the company was susceptible to data breaches in the future, sensitive disclosures could be leaked and accessed by third parties. The user is therefore unaware of long-term risks that such intimate details may have for them as it could be used for training or commercial purposes. Obviously, it comes to the repsonsbility of the company, where if they had informed the user clearly beforehand on data processing and usage policies, it will instill a sense of caution in the information that the user shares to ChatGPT. In this manner, the user unintentionally exposes private information without much thought given to privacy, as inaccurate assumptions about anonymity is made.
+
 #### 2.3.2.2
 
 #### 2.3.2.3
@@ -87,36 +89,36 @@ Again, as in 2.2.2, we are taking the base assumption that the user is with an a
 
 ### 5.1.1 Kainda’s HCISec security threat model (Security-usability threat model)
 
-![Kainda security and usability framework](images/kainda-2010-security-usability-threat-model.png)
+![](images/kainda-2010-security-usability-threat-model.png)
 
 ## 5.2 Appendix 2
 
 ### 5.2.1 ChatGPT's popularity amongst other apps on Apple's AppStore
 
-![Screenshot image of Apple AppStore productivity trending chart](images/chat-gpt-app-store-chart-popularity.png)
+![](images/chat-gpt-app-store-chart-popularity.png)
 
 ## 5.3 Appendix 3
 
 ### 5.3.1 Dong's UX usage scenario elements
 
-![Usage scenario elements broken down into its subelements](images/dong-2018-ux-usage-scenario-elements.png)
+![](images/dong-2018-ux-usage-scenario-elements.png)
 
 ## 5.4 Appendix 4
 
 ### 5.4.1 iOS engine performing simple local tasks via keyboard
 
-![Screenshot image of iOS providing text suggestions](images/chat-gpt-ios-engine.jpeg)
+![](images/chat-gpt-ios-engine.jpeg)
 
 ### 5.4.2 Slow rendering of AI-generated response for human reading speeds
 
-![Screenshot image of ChatGPT rendering AI-generated response slowly](images/chat-gpt-slow-rendering-speeds.jpeg)
+![](images/chat-gpt-slow-rendering-speeds.jpeg)
 
 ### 5.4.3 Full final AI-generated response rendered on screen
 
-![Screenshot image of final AI-generated response](images/chat-gpt-full-ai-response.jpeg)
+![](images/chat-gpt-full-ai-response.jpeg)
 
 ## 5.5 Appendix 5
 
 ### 5.5.1 Zapier dashboard for Google Analytics and Gmail automation
 
-![Screenshot image of Zapier dashboard for Google Analytics and Gmail automation](images/zapier-dashboard-gmail-automation.png)
+![](images/zapier-dashboard-gmail-automation.png)
