@@ -2,7 +2,6 @@
 title: "Security and Usability Trade-offs Report"
 author: Preetham Ananthkumar 2242090
 bibliography: references.bib
-reference-section-title: "5 References"
 output:
   pdf_document:
     toc: true
@@ -16,92 +15,108 @@ This report analyses the security and usability trade-offs of ChatGPT, an AI ass
 
 To fully grasp an entire understanding of ChatGPT's security and stability, this report will present three usage scenarios, along with three corresponding threat scenarios based on likely user mistakes, demonstrating particular deficiencies about the system. The scenarios will be thoroughly analysed to determine how easy the system is from a usability perspective. Finally, to top it all off, some recommendations will be given on which the system could improve upon.
 
-The examination of ChatGPT's controversial AI interface will give rise to insight on how it ultimately impact end-user behavior. From this, we can potentially glean strategies to improve this system with the goal of minimizing risk from threats. Overall, the main objective is to evaluate this particular system, ChatGPT, through well defined scenarios in order to provide a more holistic view on the benefits it offers, as well as the understood risk associated.
+The examination of ChatGPT's controversial AI interface will give rise to insight on how it ultimately impact end-user behavior. From this, we can potentially glean strategies to improve this system with the goal of minimising risk from threats. Overall, the main objective is to evaluate this particular system, ChatGPT, through well defined scenarios in order to provide a more holistic view on the benefits it offers, as well as the understood risk associated.
 
 Note, that the platform that has been decided to be analysed for the system, ChatGPT, is iOS, since the web variant has limited features. Although it is the same product and engine, the mobile counterpart is slightly more popular (see Appendix 2) than the web version.
 
-# 2 Usage scenarios
+# 2 Scenarios
 
-## 2.1 Defining usage scenarios
+## 2.1 Defining a scenario
 
-The definition of usage scenarios, via the Kainda security and usability framework, is as follows.
+A more cohesive, in-depth take on what a scenario means onsiders a variety of other elements (see Appendix 3) that comprise a scenario, explored in two studies [@dong2018; @ortiz2010], but can be summarised in combination as:
+$$Scenario=(Time,\space Context,\space User,\space Product,\space Behavior\space (or\space Interaction),\space Artefact)$$
+
+In which $Time$ defines the duration for which the user interacts with the product [@dong2018]. $Context$ refers to the environmental factors into distinct categories of physical, social, situational, cultural and temporal [@ortiz2010]. $User$ is as it says, however with additional attention to their values, personal traits and ambitions [@ortiz2010]. $Product$ is defined as the actual object that is being considered within the scenario [@dong2018]. $Behavior$ (or $Interaction$) concerns itself with the actual ongoings of the scenario interaction itself, and this could include the type of interaction (physical or non-physical) [@ortiz2010]. Finally, $Artefact$ is the end output of the scenario, which can take the form of either social, technical or aesthetic functions [@ortiz2010].
+
+## 2.2 Usage scenarios
+
+### 2.2.1 Defining usage scenarios
+
+The definition of usage scenarios, via the Kainda security and usability framework, is as follows:
 
 Usage scenario
 : Actions that are desirable to stakeholders of a secure system [@kainda2010].
 
-A more cohesive, in-depth take on this considers a variety of other elements (see Appendix 3) that comprise a usage scenario, explored in two studies [@dong2018; @ortiz2010], but can be summarised in combination as:
-$$Scenario=(Time,\space Context,\space User,\space Product,\space Behavior\space (or\space Interaction),\space Artefact)$$
-
-In which $Time$ defines the duration for which the user interacts with the product [@dong2018]. $Context$ refers to the environmental factors into distinct categories of physical, social, situational, cultural and temporal [@ortiz2010]. $User$ is as it says, however with additional attention to their values, personal traits and ambitions [@ortiz2010]. $Product$ is defined as the actual object that is being considered within the scenario [@dong2018]. $Behavior$ (or $Interaction$) concerns itself with the actual ongoings of the scenario interaction itself, and this could include the type of interaction (physical or non-physical) [@ortiz2010]. Finally, $Artefact$ is the end output of the usage scenario, which can take the form of either social, technical or aesthetic functions [@ortiz2010].
-
 So, with that in mind, here are three key usage scenarios identified for the system under evaluation, ChatGPT.
 
-## 2.2 Usage scenarios for ChatGPT
+### 2.2.2 Usage scenarios for ChatGPT
 
 All these scenarios will be under the assumption that the user has an authenticated account and has successfully logged in with said account. A consistent, stable internet communication throughout is obviously a understood prerequisite.
 
-### 2.3 Asking specific questions (via both text and speech recognition) to receive specific answers
+#### 2.2.2.1 Asking specific questions (via both text and speech recognition) to receive specific answers
 
 The main functionality of ChatGPT is for the user to be able to input a specific query and thus, receive the relevant output. The nature of the query on iOS can range from text input or speech recognition. The iOS engine itself may do its own local tasks, such as auto-correcting, spell-checking, text suggestions (see Appendix 4). Once a valid input is parsed, i.e. one which does not violate OpenAI's terms and conditions policy, the AI engine utlises the supremely vast dataset its been provided in combination of its pre-training phase to identify patterns and structures in the prompt it has been given [@semrush2022]. After communication and subsequent back-end server processing, a response is sent back to the user's device. It then generates a coherent response, rendering that on the screen in an easy-to-understand visual way. Specifically, for the ChatGPT iOS application, haptic feedback is given to indicate when a response has completely been delivered (see Appendix 4). The screen rendering of the AI-generated response is done slowly – to be suitable for typical human reading speeds (see Appendix 4).
 
-### 2.4 Creating multiple chats, searching for particular chats and searching for words/phrases/characters in said chats
+#### 2.2.2.2 Creating multiple chats, searching for particular chats and searching for words/phrases/characters in said chats
 
 ChatGPT's technology is such that it is able to use the previous prompts and AI-generated responses within a singular chat and extract a context from it. A user may decide that they want a completely new context or just a blank screen for clarity and organisational purposes. When the user swipes left, they are able to see an accumulation of pre-existing chats (if any) with AI-generated titles based on the chat's context, to increase the memorability of the chat for the user. If the user desired to search for a specific pattern of words, phrases or characters from from their entire chat history, again, the iOS engine does its simple local tasks via the keyboard and then the app returns all relevant results it can find within a specific time period. If older results are required, the user is prompted to do so. When a search result is clicked, the application interface then directs the user to very beginning of that specific chat. This can be particularly useful, reducing the mental memory load on the user, as they have numerous chats stockpiled after prolonged general usage.
 
-### 2.5 Automating digital tasks
+#### 2.2.2.3 Automating digital tasks
 
 A very niche usage scenario, but is very likely to occur for the advanced user. Such scenarios may include smart home automation to automatic email management, but the process for AI automation remains fairly similar; just adaption for the specific service which the user desires. This starts with the user sending in a prompt, such as:
 > "Can you provide steps to schedule a daily email report of my Google Analytics data?"
 
-ChatGPT will then outline a well-informed process, including information on how the user can use tools such as Zapier to connect Google Analytics and Gmail to present the scheduled automated report. Following these instructions will lead the user to the Zapier dashboard (see Appendix 5) where they themselves can further fine-tune and customise the automation to their liking. If the user does decide to adopt a more complex workflow automation, the user can then request ChatGPT for directions for which the user can simply follow them. The involvement of ChatGPT helps to abstract what would be a complex task into simple high-level steps. Again, as mentioned in the second usage scenario 2.4, it takes away from the mental load the user has to invest. The automation takes a series of multiple tasks which the user normally has to manually do.
+ChatGPT will then outline a well-informed process, including information on how the user can use tools such as Zapier to connect Google Analytics and Gmail to present the scheduled automated report. Following these instructions will lead the user to the Zapier dashboard (see Appendix 5) where they themselves can further fine-tune and customise the automation to their liking. If the user does decide to adopt a more complex workflow automation, the user can then request ChatGPT for directions for which the user can simply follow them. The involvement of ChatGPT helps to abstract what would be a complex task into simple high-level steps. Again, as mentioned in the second usage scenario (see 2.2.2.2), it takes away from the mental load the user has to invest. The automation takes a series of multiple tasks which the user normally has to manually do themselves.
 
-# 3 Threat scenarios
+## 2.3 Threat scenarios
 
-The definition of threat scenarios, via the Kainda security and usability framework, is as follows.
+### 2.3.1 Defining threat scenarios
+
+The definition of threat scenarios, via the Kainda security and usability framework, is as follows:
 
 Threat scenario
 : Actions that are not desirable and hence the system should not allow them to happen [@kainda2010].
 
-# 4 Recommendations
+### 2.3.2 Threat scenarios for ChatGPT
 
-# 5 References
+Again, as in 2.2.2, we are taking the base assumption that the user is with an authenticated account and is successfully logged into ChatGPT with said account.
 
-# 6 Appendices
+#### 2.3.2.1 User provides sensitive personal information without realising privacy risks
 
-## 6.1 Appendix 1
+#### 2.3.2.2
 
-### 6.1.1 Kainda’s HCISec security threat model (Security-usability threat model)
+#### 2.3.2.3
+
+# 3 Recommendations
+
+# 4 References
+
+# 5 Appendices
+
+## 5.1 Appendix 1
+
+### 5.1.1 Kainda’s HCISec security threat model (Security-usability threat model)
 
 ![Kainda security and usability framework](images/kainda-2010-security-usability-threat-model.png)
 
-## 6.2 Appendix 2
+## 5.2 Appendix 2
 
-### 6.2.1 ChatGPT's popularity amongst other apps on Apple's AppStore
+### 5.2.1 ChatGPT's popularity amongst other apps on Apple's AppStore
 
 ![Screenshot image of Apple AppStore productivity trending chart](images/chat-gpt-app-store-chart-popularity.png)
 
-## 6.3 Appendix 3
+## 5.3 Appendix 3
 
-### 6.3.1 Dong's UX usage scenario elements
+### 5.3.1 Dong's UX usage scenario elements
 
 ![Usage scenario elements broken down into its subelements](images/dong-2018-ux-usage-scenario-elements.png)
 
-## 6.4 Appendix 4
+## 5.4 Appendix 4
 
-### 6.4.1 iOS engine performing simple local tasks via keyboard
+### 5.4.1 iOS engine performing simple local tasks via keyboard
 
 ![Screenshot image of iOS providing text suggestions](images/chat-gpt-ios-engine.jpeg)
 
-### 6.4.2 Slow rendering of AI-generated response for human reading speeds
+### 5.4.2 Slow rendering of AI-generated response for human reading speeds
 
 ![Screenshot image of ChatGPT rendering AI-generated response slowly](images/chat-gpt-slow-rendering-speeds.jpeg)
 
-### 6.4.3 Full final AI-generated response rendered on screen
+### 5.4.3 Full final AI-generated response rendered on screen
 
 ![Screenshot image of final AI-generated response](images/chat-gpt-full-ai-response.jpeg)
 
-## 6.5 Appendix 5
+## 5.5 Appendix 5
 
-### 6.5.1 Zapier dashboard for Google Analytics and Gmail automation
+### 5.5.1 Zapier dashboard for Google Analytics and Gmail automation
 
 ![Screenshot image of Zapier dashboard for Google Analytics and Gmail automation](images/zapier-dashboard-gmail-automation.png)
