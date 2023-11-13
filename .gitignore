@@ -4,3 +4,6 @@
 # Ignore temporary files and directories
 .DS_Store
 Thumbs.db
+
+# Ignore any vscode files and directories
+.vscode/
