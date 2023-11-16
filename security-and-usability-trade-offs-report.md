@@ -67,6 +67,8 @@ The definition of threat scenarios, via the Kainda security and usability framew
 Threat scenario
 : Actions that are not desirable and hence the system should not allow them to happen [@kainda2010].
 
+So, with that in mind, here are three key threat scenarios identified for the system under evaluation, ChatGPT.
+
 ### 2.3.2 Threat scenarios for ChatGPT
 
 Again, as in 2.2.2, we are taking the base assumption that the user is with an authenticated account and is successfully logged into ChatGPT with said account.
@@ -88,9 +90,21 @@ In terms of attempting to construct a robust model for research purposes, experi
 
 #### 2.3.2.3 ChatGPT is misused to generate harmful, dangerous or unethical content
 
-Since ChatGPT is capable of generating content in a human-like manner on a wide range of topics, there is a risk of malicious intent by potential threat actors. Examples include those with nefarious intents attempting to use ChatGPT to reproduce harmful instructions, hateful content, or other concerning material. An example could include a user requesting the code for a program to encrypt a user's home directory – directly requesting for malware. Although this violates OpenAI's terms and conditions, many jailbreaks for ChatGPT have been released, such as DAN [@coolaj862023]. These misuses can only scale problematically, since content can be generated quickly and repativively with little to no drawbacks due to the constant accessibility to the quick-processing AI models.
+Since ChatGPT is capable of generating content in a human-like manner on a wide range of topics, there is a risk of malicious intent by potential threat actors. Examples include those with nefarious intents attempting to use ChatGPT to reproduce harmful instructions, hateful content, or other concerning material. An example could include a user requesting the code for a program to encrypt a user's home directory – directly requesting for malware. Although this violates OpenAI's terms and conditions, many jailbreaks for ChatGPT have been released, such as DAN [@coolaj862023]. These misuses can only scale problematically, since content can be generated quickly and repetitively with little to no drawbacks due to the constant accessibility to the quick-processing AI models.
 
 To model this in a safe but purposeful way, for research purposes of course, dedicated security researchers could probe and test ChatGPT's capabilities to the max, and see the responses it returns – whether those responses pose harm to the user or other users should be categorised and documented. Alternatively, algorithms to monitor ChatGPT's outputs can be developed, which can automatically flag malicious responses. However, a reliable framework should first be established to correctly classify what constitutes as a "harmful response". In any case, content generated should be monitored in a simulation and measure how its amplification and spread affects several users on online communities to gather effective evidence.
+
+## 2.4 Assessing difficulty-of-use for identified usage scenarios
+
+According to the Kainda security and usability framework (see Appendix 1), each usage scenario identified will be evaluated against a set of usability factors as outlined in the model. This will include recognising any system de-motivators and external de-motivators.
+
+### 2.4.1 Asking specific questions (via both text and speech recognition) to receive specific answers
+
+The system de-motivators for this usage scenario range from several factors. Analysing the effectiveness of ChatGPT by assessing the relevance of the AI-generated responses should yield results in which the results are genuinely useful to the user. Looking at efficiency next, the system should provide its responses within an acceptable time – the longer that this time is, the more that the user is discouraged from using the system. Furthermore, learnability could be another de-motivator, in that the user may need a specified onboarding time to accurately phrase their queries so that ChatGPT can correctly interpret them.
+
+Moving onto external de-motivators, these may include other services that could offer competition to ChatGPT – especially those who make use of OpenAI's existing API but with a much more intuitive user interface. Another de-motivator, albeit an obvious one, would be the limitations of the user's device, such as network speed or availability of hardware acceleration.
+
+## 2.5 Assessing ease-of-use for identified threat scenarios
 
 # 3 Recommendations
 
