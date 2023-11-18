@@ -108,7 +108,13 @@ Moving onto external de-motivators, these may include other services that could 
 
 The system de-motivators, similar to the last scenario, share the same multitude of factors. First looking at efficiency, this should be a metric of the time it takes to find specific conversations or phrases – obviously, the more time it takes on average, the more it increases the usage friction. The chat search feature for ChatGPT at the time of writing is currently very unresponsive and delayed, especially if the user has accumulated many chats over typical usage. There are even times when the search feature is not robust enough and will not consistently return results. In terms of learnability, at the moment, existing chats or new chats the user creates cannot be organised with labels or folders of any sorts.
 
-Again, external de-motivators includes competition from other services, particulaly if they have a better search feature and organisation capabilities. Similar with the previous usage scenario, performance greatly affects how promptly search results are returned – the more RAM and cores available, the more speed the searching algorithm can execute with.
+Again, external de-motivators includes competition from other services, particularly if they have a better search feature and organisation capabilities. Similar with the previous usage scenario, performance greatly affects how promptly search results are returned – the more RAM and cores available, the more speed the searching algorithm can execute with.
+
+### 2.4.3 Automating digital tasks
+
+The system de-motivators vary slightly, since a third party service other than ChatGPT is involved, but ultimately, ChatGPT plays a heavy role in informing the user on the basic set-up instructions. As this is the case, the first component to examine is its effectiveness. Initially, if ChatGPT does not provide coherent instructions to the user, then they are unclear on how to develop their desired automated workflow. More complex processes may discourage the user and thus discourage them. Furthermore, if ChatGPT cannot correctly simplify complex technical terms or concepts such as API keys and Zapier, it gives birth to a steep learning curve – equating to lower learnability. The more rigid the instructions are, the less ability the user has to customise the automation to their needs.
+
+Consistent with the previous scenarios, the main external de-motivator is competition from other services. A well known automation service is "If This Then That" (IFTTT), which helps to simplify the approach for the ordinary user, contrasting with ChatGPT's more instructional approach.
 
 ## 2.5 Assessing ease-of-use for identified threat scenarios
 
