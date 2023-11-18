@@ -1,5 +1,5 @@
 ---
-title: "Security and Usability Trade-offs Report"
+title: "Security and Usability Trade-offs of ChatGPT"
 author: Preetham Ananthkumar 2242090
 bibliography: references.bib
 output:
@@ -75,7 +75,7 @@ Again, as in 2.2.2, we are taking the base assumption that the user is with an a
 
 #### 2.3.2.1 User provides sensitive personal information without realising privacy risks
 
-The inherent conversational nature of ChatGPT may lead users to inadvertently disclose personal information which they may not be comfortable expressing without understanding the obvious privacy implications that come alone with that. Such personal information could be in various forms, with examples including mental health information, personal details such as location, ethnic origin, sex orientation or religious beliefs. Without much transparency beforehand on how user data is handled, the user is ill informed of the data processing actions occurring and so, the mental model for the user is to assume that OpenAI handles their data in an anonymous and private way – satiating themselves. If the company was susceptible to data breaches in the future, sensitive disclosures could be leaked and accessed by third parties. The user is therefore unaware of long-term risks that such intimate details may have for them as it could be used for training or commercial purposes. Obviously, it comes to the repsonsbility of the company, where if they had informed the user clearly beforehand on data processing and usage policies, it will instill a sense of caution in the information that the user shares to ChatGPT. In this manner, the user unintentionally exposes private information without much thought given to privacy, as inaccurate assumptions about anonymity is made.
+The inherent conversational nature of ChatGPT may lead users to inadvertently disclose personal information which they may not be comfortable expressing without understanding the obvious privacy implications that come alone with that. Such personal information could be in various forms, with examples including mental health information, personal details such as location, ethnic origin, sex orientation or religious beliefs. Without much transparency beforehand on how user data is handled, the user is ill informed of the data processing actions occurring and so, the mental model for the user is to assume that OpenAI handles their data in an anonymous and private way – satiating themselves. If the company was susceptible to data breaches in the future, sensitive disclosures could be leaked and accessed by third parties. The user is therefore unaware of long-term risks that such intimate details may have for them as it could be used for training or commercial purposes. Obviously, it comes to the responsibility of the company, where if they had informed the user clearly beforehand on data processing and usage policies, it will instill a sense of caution in the information that the user shares to ChatGPT. In this manner, the user unintentionally exposes private information without much thought given to privacy, as inaccurate assumptions about anonymity is made.
 
 In order to simulate this for research purposes, a safe and suitable modeling approach would be to conduct an empirical study where participants are given "dummy" ChatGPT conversational prompts that encourage the sharing of personal details. The aim of this study would be to track the responses given, such as if users expresses a concern for privacy. Interviews and surveys can also be carried out to gauge the user's emotional perspective when they are in a typical interaction with ChatGPT, so that an appropriate mental model can be crafted which includes information about their motivations or any other external factors. Furthermore, arguably one of the most important indicators of ChatGPT's data procedures is to analyse OpenAI's terms and conditions, its retention policies, and any usage rights which have been granted to the company.
 
@@ -117,6 +117,14 @@ The system de-motivators vary slightly, since a third party service other than C
 Consistent with the previous scenarios, the main external de-motivator is competition from other services. A well known automation service is "If This Then That" (IFTTT), which helps to simplify the approach for the ordinary user, contrasting with ChatGPT's more instructional approach.
 
 ## 2.5 Assessing ease-of-use for identified threat scenarios
+
+For the identified threat scenarios, it is vital to recognise how easy it is to reproduce them, since the typical user opts for the path of least resistance when navigating through a system. In the event that the usage scenarios become a burden to use, users may resort to utilising threat scenarios even if their intentions are pure [@kainda2010]. For this section, a wide variety of system motivators will be examined to comprehend why users may engage with the aforementioned threat scenarios. System motivators, in this case, are any aspects of a system that compels the user to execute that specific threat scenario, whilst contrastingly as the name suggests, external motivators originate from outside the system which helps a user to arrive to the same threat scenario.
+
+### 2.5.1 User provides sensitive personal information without realising privacy risks
+
+### 2.5.2 User becomes overly dependent on ChatGPT instead of thinking independently
+
+### 2.5.3 ChatGPT is misused to generate harmful, dangerous or unethical content
 
 # 3 Recommendations
 
