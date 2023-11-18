@@ -104,6 +104,12 @@ The system de-motivators for this usage scenario range from several factors. Ana
 
 Moving onto external de-motivators, these may include other services that could offer competition to ChatGPT – especially those who make use of OpenAI's existing API but with a much more intuitive user interface. Another de-motivator, albeit an obvious one, would be the limitations of the user's device, such as network speed or availability of hardware acceleration.
 
+### 2.4.2 Creating multiple chats, searching for particular chats and searching for words/phrases/characters in said chats
+
+The system de-motivators, similar to the last scenario, share the same multitude of factors. First looking at efficiency, this should be a metric of the time it takes to find specific conversations or phrases – obviously, the more time it takes on average, the more it increases the usage friction. The chat search feature for ChatGPT at the time of writing is currently very unresponsive and delayed, especially if the user has accumulated many chats over typical usage. There are even times when the search feature is not robust enough and will not consistently return results. In terms of learnability, at the moment, existing chats or new chats the user creates cannot be organised with labels or folders of any sorts.
+
+Again, external de-motivators includes competition from other services, particulaly if they have a better search feature and organisation capabilities. Similar with the previous usage scenario, performance greatly affects how promptly search results are returned – the more RAM and cores available, the more speed the searching algorithm can execute with.
+
 ## 2.5 Assessing ease-of-use for identified threat scenarios
 
 # 3 Recommendations
