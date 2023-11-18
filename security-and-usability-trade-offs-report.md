@@ -122,7 +122,15 @@ For the identified threat scenarios, it is vital to recognise how easy it is to 
 
 ### 2.5.1 User provides sensitive personal information without realising privacy risks
 
+Considering the system motivators, ChatGPT's nature is anthropomorphic which uses its human-like conversational skills to persuade users to give out their personal details, thoughts, and feelings more readily. But this is not the only factor. Prolonged conversation with ChatGPT over time may build emotional rapport and investment – leading to oversharing sensitive information. Additionally, a false sense of privacy is established within the user since there is no clear indication that conversations are recorded and possibly analysed by OpenAI to improve their services.
+
+External motivators for this case are mainly related to the user's social situation. A social desirability bias may influence users to present themselves positively and "show-off", eventually leading to the exposure of their personal details. Or users could genuinely mistake ChatGPT for an actual human, due to the empathetic responses the AI gives, paving the way for misplaced trust.
+
 ### 2.5.2 User becomes overly dependent on ChatGPT instead of thinking independently
+
+The system motivators for this threat scenario are based more around the psychology of ChatGPT. Since ChatGPT can personalise its responses based on even the most complex of user queries, it promotes to the user a high reliance on the recommendations it gives. This is coupled with its confidence, nuance, and expansive knowledge across a wide range of topics which further instills a sense of over dependence on AI. This then reduces the cognitive load on the user – ChatGPT simplifies complicated situations into an easy-to-digest format. There is more inclination for the user to foster a relationship of trust with ChatGPT instead of using their own analysis.
+
+External motivators for this threat scenario are again, psychology based. A long-term use of ChatGPT can result in cognitive laziness, in which convenience trumps expending mental effort in the pursuit of simple AI responses. Basic responsibly is diffused since the user is relieved of their information overload. This could be the aftermath of techno-solutionism, where the the user is led to believe that AI is more advanced to make less error-prone decisions than humans.
 
 ### 2.5.3 ChatGPT is misused to generate harmful, dangerous or unethical content
 
