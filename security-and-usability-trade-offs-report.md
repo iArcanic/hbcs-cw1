@@ -134,6 +134,10 @@ External motivators for this threat scenario are again, psychology based. A long
 
 ### 2.5.3 ChatGPT is misused to generate harmful, dangerous or unethical content
 
+The system motivators for this threat scenario are as follows. First and foremost, ChatGPT's underlying model (which at the time of writing is GPT3.5) is unable to discriminate between benign and toxic outputs, which can lead to endless harmful possibilities. This is not helped by the fact that there is a lack of moderation pre-deployment to when the user enters their query so unacceptable prompts are appropriately blocked. With the presence of jailbreaks described earlier [@coolaj862023], loopholes can exploit ChatGPT's large language model (LLM) to produce malicious content.This does not stop on a small scale – as ChatGPT uses the previous context within the same chat, the toxic outputs produced can only increase in number, with much more ease.
+
+External motivators includes these factors. Poor governance and weak regulations surrounding AI, given that it is currently a new and emerging technology, are weak at the national and global level. Given time and resources, the required legislation for AI will be implemented eventually due to its capabilities. For some users however, sharing AI-generated content on online forums has a veil of anonymity associated with it, giving them the confidence to share content that is offensive, extremist or perhaps dangerous. This is not encouraged by the fact that in any system, there will be users with digital literacy gaps, and they may be unable to identify any misinformation or manipulation tactics.
+
 # 3 Recommendations
 
 # 4 References
