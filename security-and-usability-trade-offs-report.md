@@ -148,15 +148,15 @@ Usability recommendations are suggestions as to how users can achieve their inte
 
 ### 3.1.1 Streamline chat organisation
 
-Existing chats which the user already has could benefit from the implementation of tags or labels which can be distributed into various folders. Examples by include by topic or intent. This way, context switching can be facilitated more easily without being much of a load on the user's mental model.
+Existing chats which the user already has could benefit from the implementation of tags or labels which can be distributed into various folders. Examples of this systematic arrangement include organisation based on factors such as by topic or intent. User friendly features, such as chat pinning for priority retrieval, labelling or favoriting decided by user choice can further facilitate this. This way, context switching between different chats can occur more easily without being much of a load on the user's mental model.
 
 ### 3.1.2 Optimise search feature
 
-Enhancing the efficiency of the chat search functionality relies on prioritising its speed firstly, and this can be done through metadata indexing and OS architecture optimisation. This optimisation includes the implementation of specific phrase search capabilities, which enables users to conduct even more precise queries combined with integration filters for parameters such as date or certain keywords. The new search methodology with advanced searching criteria can provide a much more seamless experience. The search infrastructure can be further improved by relevance ranking, so only the vital results are displayed at the top.
+Enhancing the efficiency of the chat search functionality relies on prioritising its speed firstly, and this can be done through metadata indexing and OS architecture optimisation. This optimisation includes the implementation of specific phrase search capabilities, which enables users to conduct even more precise queries combined with integration filters for parameters such as date or certain keywords. The new search methodology with advanced searching criteria can provide a much more seamless experience. The search infrastructure can be further improved by relevance ranking, so only the useful results are displayed at the top.
 
-### 3.1.3 Allow for quality ratings
+### 3.1.3 Customisable widget
 
-### 3.1.4 Customisable widget
+The integration of a customisable widget, either on the user's home screen, control panel or notification centre, can increase accessibility to the interface, and this could be exemplified through a floating ChatGPT button. With this, the user has immediate access to ask queries or display one of their existing chats for multi-tasking purposes. Primarily, the widget's adaptability is accentuated by its "drag-and-drop" feature, so that users can strategically place it according to their needs and ergonomic advantages. Furthermore, there is less overhead time in loading and launching the application, since users are able to access the ChatGPT prompt bar from multiple locations on their device. Such cusotmisable widgets represent a user-centric approach to interface design, especially for an iOS device, where the use of Siri and Apple Shortcuts can be configured for even more advanced workflows.
 
 ## 3.2 Security recommendations
 
