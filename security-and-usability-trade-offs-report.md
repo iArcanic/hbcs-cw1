@@ -140,6 +140,38 @@ External motivators includes these factors. Poor governance and weak regulations
 
 # 3 Recommendations
 
+The identified usage scenarios, at least in the case of legitimate users, should be conveniently reachable and easy to execute. The threat scenarios are expected to be fortified against, so that they aren't as easy to be accessed by the typical user. This section will give some recommendations, with an equilibrium between security and usability.
+
+## 3.1 Usability recommendations
+
+Usability recommendations are suggestions as to how users can achieve their intended goals with ChatGPT all the whilst being frictionless, easy, and intuitive to further optimise the user experience.
+
+### 3.1.1 Streamline chat organisation
+
+Existing chats which the user already has could benefit from the implementation of tags or labels which can be distributed into various folders. Examples by include by topic or intent. This way, context switching can be facilitated more easily without being much of a load on the user's mental model.
+
+### 3.1.2 Optimise search feature
+
+Enhancing the efficiency of the chat search functionality relies on prioritising its speed firstly, and this can be done through metadata indexing and OS architecture optimisation. This optimisation includes the implementation of specific phrase search capabilities, which enables users to conduct even more precise queries combined with integration filters for parameters such as date or certain keywords. The new search methodology with advanced searching criteria can provide a much more seamless experience. The search infrastructure can be further improved by relevance ranking, so only the vital results are displayed at the top.
+
+### 3.1.3 Allow for quality ratings
+
+### 3.1.4 Customisable widget
+
+## 3.2 Security recommendations
+
+Security recommendations allude to suggestions that help safeguard users from misuse, user error, or the discovery of unintentional threat scenarios when interacting with ChatGPT. The aim is to protect users, the platform, and the company developing the system.
+
+### 3.2.1 Display data policies clearly
+
+### 3.2.2 Allow for chat deletion
+
+### 3.2.3 Flag any dangerous user activity
+
+### 3.2.4 Enable identity verification
+
+### 3.2.5 Provide transparency
+
 # 4 References
 
 # 5 Appendices
