@@ -172,13 +172,17 @@ Security recommendations allude to suggestions that help safeguard users from mi
 
 ### 3.2.1 Display data policies clearly
 
-### 3.2.2 Allow for chat deletion
+Before any initial interaction with ChatGPT, a comprehensive data handling information dialog should be rendered on the user's device to alert them of any data based operations taking place. The system should aim to provide a clear and prominent explanation on the types of user data being collected, the actions in the processing stage, how it is stored within OpenAI's servers, as well as if it is being shared or distributed to other third parties. Rather than prompting the user to read the long and tedious terms and conditions document, an explicit opt-in consent to data handling should be displayed. This approach, which prioritises informed user consent, will help build more of a foundation of trust and accountability, by ensuring that users have a established understanding within an AI ecosystem. It is also within OpenAI's best interest (in addition to complying with obligatory legal reasons) to align with ethical considerations and data practice transparency.
 
-### 3.2.3 Flag any dangerous user activity
+### 3.2.2 Flag any dangerous user activity
 
-### 3.2.4 Enable identity verification
+To further promote user safety, the implementation of a robust system for flagging can help prevent the probability that a user carries out harmful real-world activities. The idea of responsible use of a system with AI capabilities should be nutured, and this can be achieved by utilising the training quirks of ChatGPT's AI model alongside input from experts to identify conversation paths which could end up with dangerous consequences. In such cases, ChatGPT should recognise and proactively notify users with a preemptive alerting mechanism that discourages any unethical use of AI. The automated flagging system should also constantly alert OpenAI if such instances are detected, and it should be the company's aim to strike a balance between user autonomy and the mitigation of potential threat scenarios.
 
-### 3.2.5 Provide transparency
+### 3.2.3 Enable identity verification
+
+The implementation of identity verification mechanisms within a conversational AI-based system such as ChatGPT is an opportunity to improve upon overall security and user accountability. Thorough verification methods, such as one-time identity proofing during the initial account creation, reinforces the presence of legitimate users within the system only. This way, user's cannot veil themselves behind anonymity which also aids in the deterrence of any malicious actors. The risks associated with anonymous users are minimised and the overarching goals of ethical AI usage and responsible user activity are put at the forefront when users typically interact with the system. This way, a proactive step is taken in order to preserve user integrity and prevent system misuse.
+
+### 3.2.4 Prevent loopholes of jailbreaks
 
 # 4 References
 
