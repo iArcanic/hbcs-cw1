@@ -184,6 +184,8 @@ The implementation of identity verification mechanisms within a conversational A
 
 ### 3.2.4 Prevent loopholes of jailbreaks
 
+The discovery of the large language model (LLM) exploits [@coolaj862023] requires the necessary implementation of fortification against such loopholes. An adversarial testing program, involving experts in the field, can be conducted to identify any flaws within ChatGPT's current AI model. This would include robust and repetitive testing to correctly single out any weaknesses within the LLM that allows for the generation of toxic content. When these all relevant vulnerabilities are documented, these can be addressed by having the system undergo continuous improvement – ensuring that any loopholes that do exist are brought to a closure as soon as possible. The system's AI model and LLM can therefore use the experience from the testing and continuously evolve against existing jailbreaks. Since exploits are continuously being found, frequent updates or patches have to be applied. Certain legislation can pushed for by OpenAI to prevent the sharing of jailbreaks on online committees or forums.
+
 # 4 References
 
 # 5 Appendices
