@@ -6,7 +6,7 @@ output:
   pdf_document:
     toc: true
     number_sections: true
-csl: elsevier-harvard.csl
+csl: harvard-imperial-college-london.csl
 ---
 
 # 1 Introduction
