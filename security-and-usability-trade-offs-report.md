@@ -121,11 +121,11 @@ Existing chats which the user already has could benefit from the implementation 
 
 ### 6.1.2 Optimise search feature
 
-Enhancing the efficiency of the chat search functionality relies on prioritising its speed, and this can be done through metadata indexing and OS architecture optimisation. The search feature can be improved by relevance ranking, so that only useful results are displayed.
+The efficiency of the chat search functionality relies on prioritising its speed, and this can be done through metadata indexing and OS architecture optimisation. The search feature can be improved by relevance ranking, so that only useful results are displayed.
 
 ### 6.1.3 Implement consistency check
 
-When using AI-based systems, the generated responses requires a consistency check. Leveraging the use of the large language model (LLM) processing capabilities, the system can identify statements that propose direct contradictions with one another. It is then up to the user to pinpoint the accurate responses amongst the conflicted ones. This not only trains the user to be more resilient, but also allows ChatGPT to build a better dataset to refine its model even further.
+When using AI-based systems, the generated responses requires a consistency check. Leveraging the use of the large language model (LLM) processing capabilities, the system can identify statements that propose direct contradictions with one another. It is then up to the user to pinpoint the accurate responses amongst the conflicted ones. This not only trains the user, but also allows ChatGPT to build a better dataset to refine its model even further.
 
 ### 6.1.4 Merge conversations on related topics
 
