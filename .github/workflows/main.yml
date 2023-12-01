@@ -45,7 +45,7 @@ jobs:
     - name: Compile Markdown to PDF
       run: |
         timestamp=$(date +"%Y%m%d%H%M%S")
-        pandoc security-and-usability-trade-offs-report.md --filter pandoc-citeproc -o "security-and-usability-trade-offs-report-${{ steps.timestamp.outputs.timestamp }}.pdf" --toc --toc-depth=3 --top-level-division=part
+        pandoc security-and-usability-trade-offs-report.md --filter pandoc-citeproc -o "security-and-usability-trade-offs-report-${{ steps.timestamp.outputs.timestamp }}.pdf" --toc --toc-depth=3
 
     - name: Upload PDF artifact
       uses: actions/upload-artifact@v2
