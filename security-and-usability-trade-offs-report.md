@@ -45,7 +45,7 @@ Threat scenario
 
 ## 3.1 User provides personal information without realising privacy risks
 
-Users may disclose personal information without understanding the privacy implications associated. Without much transparency beforehand, they are unaware of the data processing actions occurring, so they assume that OpenAI handles their data in a secure way. If the company was susceptible to data breaches in the future, sensitive information could be leaked, and thus, the user is therefore ignorant of long-term risks it poses.
+Users may disclose personal information without understanding the privacy implications associated. Without much transparency beforehand, they are unaware of the data processing actions occurring, so they assume that OpenAI handles their data in a secure way [@kim2021]. If the company was susceptible to data breaches in the future, sensitive information could be leaked, and thus, the user is therefore ignorant of long-term risks it poses.
 
 To model this, a study can be conducted where participants are given "dummy" prompts that encourage the sharing of personal details. The aim of this study would be to track the responses given, such as users expressing a concern for privacy. Surveys can also be carried out to gauge the user's emotional perspective in a typical interaction with ChatGPT.
 
@@ -93,7 +93,7 @@ For the identified threat scenarios, it is vital to recognise how easy it is to 
 
 | System de-motivators | External de-motivators |
 |---|---|
-| ChatGPT's uses its human-like conversational skills to persuade users to give out their personal details and thoughts more readily. This is not the only factor. Prolonged conversation with ChatGPT over time may build emotional rapport – leading to oversharing sensitive information. Additionally, a false sense of privacy is established within the user since there is no clear indication whether conversations are recorded and possibly analysed by OpenAI. | This mainly relates to the user's social situation. A social desirability state may influence users to present themselves positively and "show-off", eventually leading to the exposure of sensitive details. Other users could genuinely mistake ChatGPT for an actual human, due to its empathetic responses. |
+| ChatGPT's uses its human-like conversational skills to persuade users to give out their personal details and thoughts more readily. This is not the only factor. Prolonged conversation with ChatGPT over time may build emotional rapport – leading to oversharing sensitive information. Additionally, a false sense of privacy is established within the user since there is no clear indication whether conversations are recorded and possibly analysed by OpenAI. | This mainly relates to the user's social situation. A social desirability state may influence users to present themselves positively and "show-off", eventually leading to the exposure of sensitive details [@kim2021]. Other users could genuinely mistake ChatGPT for an actual human, due to its empathetic responses. |
 
 ## 5.2 User becomes overly dependent on ChatGPT instead of thinking independently
 
