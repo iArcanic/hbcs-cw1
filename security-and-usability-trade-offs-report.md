@@ -2,12 +2,7 @@
 title: "Security and Usability Trade-offs of ChatGPT"
 author: "2242090"
 bibliography: references.bib
-references:
-  - id: mybib
-    title: Bibliography
-    location: document
-    prefix: 7
-    numbering: true
+references-title: "8 Reference"
 toc: true
 toc-title: Table of Contents
 toc-depth: 3
@@ -104,7 +99,7 @@ For the identified threat scenarios, it is vital to recognise how easy it is to 
 
 | System de-motivators | External de-motivators |
 |---|---|
-| ChatGPT promotes high reliance on itself, based on the recommendations it gives. This is coupled with its expansive knowledge across a wide range of topics which further instills a sense of over dependence on AI. This then reduces the cognitive load on the user – ChatGPT simplifies complicated situations into an easy-to-digest format. There is more inclination for the user interact with ChatGPT rather than using their own analysis. | A long-term use of ChatGPT can result in cognitive laziness. Basic responsibility is diffused, since the user is relieved of their information overload. This could be the aftermath of technological advancement, where the the user is led to believe that AI is more capable in making less error-prone decisions. |
+| ChatGPT promotes high reliance on itself, based on the recommendations it gives. This is coupled with its expansive knowledge across a wide range of topics which further instills a sense of over dependence on AI. This then reduces the cognitive load on the user – ChatGPT simplifies complicated situations into an easy-to-digest format. There is more inclination for the user interact with ChatGPT rather than using their own analysis. | A long-term use of ChatGPT can result in cognitive laziness. Basic responsibility is diffused, since the user is relieved of their information overload [@theophilou2023]. This could be the aftermath of technological advancement, where the the user is led to believe that AI is more capable in making less error-prone decisions. |
 
 ## 5.3 ChatGPT is misused to generate harmful, dangerous or unethical content
 
@@ -152,52 +147,48 @@ Flagging can help lower the probability that a user carries out harmful real-wor
 
 The discovery of the large language model (LLM) exploits [@coolaj862023] requires patching against loopholes. A testing program, involving experts in the field, can be conducted to identify any flaws within ChatGPT's model. When these vulnerabilities are documented, these can be addressed by having the system undergo continuous improvement – ensuring that any loopholes that do exist are closed.
 
-# 7 Bibliography
+# 7 Appendices 
 
-(#mybib)
+## 7.1 Appendix 1
 
-# 8 Appendices 
-
-## 8.1 Appendix 1
-
-### 8.1.1 Kainda’s HCISec security threat model (Security-usability threat model)
+### 7.1.1 Kainda’s HCISec security threat model (Security-usability threat model)
 
 ![](images/kainda-2010-security-usability-threat-model.png)
 
-## 8.2 Appendix 2
+## 7.2 Appendix 2
 
-### 8.2.1 iOS engine performing simple local tasks via keyboard
+### 7.2.1 iOS engine performing simple local tasks via keyboard
 
 ![](images/chat-gpt-ios-engine.jpeg)
 
-### 8.2.2 Slow rendering of AI-generated response for human reading speeds
+### 7.2.2 Slow rendering of AI-generated response for human reading speeds
 
 ![](images/chat-gpt-slow-rendering-speeds.jpeg)
 
-### 8.2.3 Full final AI-generated response rendered on screen
+### 7.2.3 Full final AI-generated response rendered on screen
 
 ![](images/chat-gpt-full-ai-response.jpeg)
 
-## 8.3 Appendix 3
+## 7.3 Appendix 3
 
-### 8.3.1 Existing chats being displayed
+### 7.3.1 Existing chats being displayed
 
 ![](images/chat-gpt-existing-chat-display.jpeg)
 
-## 8.4 Appendix 4
+## 7.4 Appendix 4
 
-### 8.4.1 Searching for specific phrases or words
+### 7.4.1 Searching for specific phrases or words
 
 ![](images/chat-gpt-search-function.jpeg)
 
-## 8.5 Appendix 5
+## 7.5 Appendix 5
 
-### 8.5.1 Zapier dashboard for Google Analytics and Gmail automation
+### 7.5.1 Zapier dashboard for Google Analytics and Gmail automation
 
 ![](images/zapier-dashboard-gmail-automation.png)
 
-## 8.6 Appendix 6
+## 7.6 Appendix 6
 
-### 8.6.1 Chat-GPT DAN exemplar jailbreak scenario
+### 7.6.1 Chat-GPT DAN exemplar jailbreak scenario
 
 ![](images/chat-gpt-dan-jailbreak-example.jpeg)
