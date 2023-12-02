@@ -1,15 +1,11 @@
 ---
 title: "Security and Usability Trade-offs of ChatGPT"
 author: "2242090"
-output:
-  pdf_document:
-    toc: true
-    number_sections: true
-header-includes:
-  - |
-    \usepackage{biblatex}
-    \addbibresource{references.bib}
-    \begin{document}
+bibliography: references.bib
+toc: true
+toc-title: Table of Contents
+toc-depth: 3
+numbersections: true
 csl: harvard-imperial-college-london.csl
 ---
 
@@ -152,10 +148,6 @@ Flagging can help lower the probability that a user carries out harmful real-wor
 The discovery of the large language model (LLM) exploits [@coolaj862023] requires patching against loopholes. A testing program, involving experts in the field, can be conducted to identify any flaws within ChatGPT's model. When these vulnerabilities are documented, these can be addressed by having the system undergo continuous improvement – ensuring that any loopholes that do exist are closed.
 
 # 7 Bibliography
-
-\printbibliography
-
-\end{document}
 
 # 8 Appendices 
 
