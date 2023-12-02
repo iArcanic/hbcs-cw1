@@ -2,7 +2,6 @@
 title: "Security and Usability Trade-offs of ChatGPT"
 author: "2242090"
 bibliography: references.bib
-references-title: "8 Reference"
 toc: true
 toc-title: Table of Contents
 toc-depth: 3
