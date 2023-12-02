@@ -6,4 +6,4 @@
 Thumbs.db
 
 # Ignore any vscode files and directories
-vscode/
+.vscode/
