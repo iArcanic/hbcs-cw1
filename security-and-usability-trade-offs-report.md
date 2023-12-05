@@ -64,7 +64,7 @@ To model this, dedicated security researchers could probe ChatGPT's capabilities
 
 # 4 Assessing difficulty-of-use for identified usage scenarios
 
-According to the Kainda security and usability framework (see Appendix 1), each usage scenario identified will be evaluated against a set of usability factors. This will include recognising any system de-motivators and external de-motivators.
+According to Kainda's security and usability framework (see Appendix 1), each usage scenario identified will be evaluated against a set of usability factors. This will include recognising any system de-motivators and external de-motivators.
 
 ## 4.1 Asking specific questions to receive specific answers
 
